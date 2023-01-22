@@ -11,6 +11,10 @@
   -webkit-text-size-adjust: 100%;
 }
 
+.toast-message {
+  max-width: 350px;
+}
+
 body {
   margin: 0;
   display: flex;
