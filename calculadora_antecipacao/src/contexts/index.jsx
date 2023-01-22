@@ -7,6 +7,7 @@ const ContextProvider = ({ children }) => {
   const [defaultApi, setDefaultApi] = useState([]);
 
   const calculating_advance = async (data) => {
+
     await api
       .post("", data)
       .then((response) => {
